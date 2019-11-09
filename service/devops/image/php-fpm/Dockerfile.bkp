@@ -1,0 +1,46 @@
+FROM alpine:3.8
+
+MAINTAINER Alexandr Zayats <alexandr@zayats.org>
+
+RUN apk add --update --no-cache curl \
+    php7 \
+    php7-fpm \
+    php7-amqp \
+    php7-bcmath \
+    php7-curl \
+    php7-gd \
+    php7-imagick \
+    php7-iconv \
+    php7-intl \
+    php7-json \
+    php7-xml \
+    php7-mbstring \
+    php7-mcrypt \
+    php7-mongodb \
+    php7-openssl \
+    php7-pcntl \
+    php7-pdo \
+    php7-pdo_mysql \
+    php7-pdo_pgsql \
+    php7-mysqli \
+    php7-pgsql \
+    php7-redis \
+    php7-sodium \
+    php7-zip \
+    php7-phar \
+    php7-ctype \
+    php7-gmp \
+    php7-tokenizer \
+    php7-fileinfo \
+    pcre \
+    libsodium && \
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+    ln -sf /usr/sbin/php-fpm7 ./usr/sbin/php-fpm 
+    
+ADD php.ini /etc/php7/php.ini	
+ADD zz-docker.conf /etc/php7/php-fpm.d/zz-docker.conf
+ADD www.conf /etc/php7/php-fpm.d/www.conf
+
+WORKDIR /var/www
+
+ENTRYPOINT ["php-fpm", "-R", "-y", "/etc/php7/php-fpm.conf"]
