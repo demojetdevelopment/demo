@@ -1,347 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e6cd26b2bb7e60911f94ac6d42b93b8ac27788a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33a42d07e7c07ce218e046d486924ca3461ddf94" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40c94d07d7f970900fb205ecc8a4c31e1836120e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4caa79b322194f4cbe51db0f71f7704cc30705fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b4251e476bf0a9d38df2956b8580b8fb8482f9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fa600979128c2a676daac70e406c56903c2f289" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fed9e3b8aa0aa93df48b6abf41e0b8b5744dbc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70c2c983de56c0dbf2f31d1b565bccdb49d2ebf9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b52feb7ab7ee0c2cefd077eef00b264a61c16da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/acd23e5300c451d5306cb6d42010973ce0e9d3d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.php_cs.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/doclinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/jquery.instantSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/scss/admin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/assets/scss/bootstrap-tagsinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/assets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/security_checker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/html_sanitizer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/security_checker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/dama_doctrine_test_bundle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/twig_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/data/database.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/data/database_test.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/.env.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/docker-compose.override.dist.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/.htpasswd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/conf.d/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/conf.d/gzip.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/conf.d/upstreams.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/config/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/config/upstreams.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/custom.d/fastcgi_params.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/custom.d/restrictions.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/custom.d/robots.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/custom.d/whitelist.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/echo-nginx-module-0.61.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile-XDebug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile.bkp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile_cli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/opcache.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/php-fpm.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dbg/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli-dev/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/cli/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/php-fpm.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/www.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/php-fpm.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dev/www.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/docker-php-entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/docker-php-ext-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/docker-php-ext-enable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/docker-php-ext-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/docker-php-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/php-fpm.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/php.ini-development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/php.ini-production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm/www.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/www.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/xdebug-dev.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php-fpm/zz-docker.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/image/php/config/xdebug.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/scripts/app-start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/scripts/app-stop.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/scripts/entrypoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/scripts/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/devops/scripts/wait.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/entrypoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-brands-400.14c590d1.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-brands-400.3e1b2a65.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-brands-400.5e8aa9ea.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-brands-400.df02c782.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-regular-400.285a9d2a.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-regular-400.5623624d.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-regular-400.aa66d0e0.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-regular-400.ac21cac3.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-solid-900.3ded831d.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-solid-900.42e1fbd2.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-solid-900.896e20e2.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/fa-solid-900.d6d8d5da.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-bold-italic.0b6bb672.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-bold-italic.9c7e4e9e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-bold.cccb8974.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-bold.d878b6c2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-normal-italic.4eb103b4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-normal-italic.f28f2d64.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-normal.27bd77b9.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/fonts/lato-normal.bd03a2cc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/images/fa-brands-400.bfa9c38b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/images/fa-regular-400.95f13e0b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/images/fa-solid-900.6ed5e3bc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/build/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Command/AddUserCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Command/DeleteUserCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Command/ListUsersCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Controller/Admin/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Entity/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Entity/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/EventSubscriber/CheckRequirementsSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/EventSubscriber/CommentNotificationSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/EventSubscriber/ControllerSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/EventSubscriber/RedirectToPreferredLocaleSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Events/CommentCreatedEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/CommentType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/DataTransformer/TagArrayToStringTransformer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/PostType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/Type/ChangePasswordType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/Type/DateTimePickerType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/Type/TagsInputType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Migrations/Version20191104133258.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Pagination/Paginator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Repository/PostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Repository/TagRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Security/PostVoter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Twig/AppExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Twig/SourceCodeExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Utils/Markdown.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Utils/MomentFormatConverter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Utils/Slugger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/Utils/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/blog/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/admin/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/_comment_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/_delete_post_confirmation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/_post_tags.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/_rss.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/comment_form_error.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/index.xml.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/post_show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/blog/search.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/bundles/TwigBundle/Exception/error403.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/bundles/TwigBundle/Exception/error500.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/debug/source_code.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/default/_flash_messages.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/default/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/form/fields.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/form/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/user/change_password.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/templates/user/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Command/AddUserCommandTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Controller/Admin/BlogControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Controller/BlogControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Controller/UserControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Form/DataTransformer/TagArrayToStringTransformerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Utils/SluggerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tests/Utils/ValidatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.bg.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.ca.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.cs.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.de.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.es.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.hr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.id.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.it.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.ja.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.lt.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.nl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.pl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.pt_BR.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.ro.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.ru.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.sl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.tr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.uk.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/messages+intl-icu.zh_CN.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.bg.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.ca.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.cs.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.de.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.en.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.es.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.fr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.hr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.id.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.it.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.ja.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.lt.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.nl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.pl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.pt_BR.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.ro.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.ru.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.sl.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.tr.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.uk.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/translations/validators+intl-icu.zh_CN.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="DMO-101 Fork Symfony demo project" />
+    <list id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,104 +84,15 @@
           <entry key="composer.json" value="28" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.rebase" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="demo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/devops/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="11" selection-start-line="12" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/.env.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/scripts/app-start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/conf.d/application.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/config/upstreams.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -542,6 +114,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -695,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -718,6 +294,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -749,18 +326,19 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
+      <branch name="master" repository="$PROJECT_DIR$" />
       <changelist id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="" />
       <created>1572855878890</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572855878890</updated>
+      <updated>1573323420095</updated>
       <workItem from="1572855880408" duration="14312000" />
       <workItem from="1572964008358" duration="28000" />
       <workItem from="1573109678031" duration="1457000" />
       <workItem from="1573121091608" duration="652000" />
       <workItem from="1573213490486" duration="9000" />
-      <workItem from="1573302436848" duration="7604000" />
+      <workItem from="1573302436848" duration="7630000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit;">
       <created>1573319211979</created>
@@ -768,6 +346,19 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1573319211979</updated>
+    </task>
+    <task active="true" id="DMO-101" summary="Fork Symfony demo project">
+      <branch name="master" repository="$PROJECT_DIR$" original="true" />
+      <branch name="DMO-101-fork-symfony-demo-project" repository="$PROJECT_DIR$" />
+      <changelist id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="" />
+      <created>1573317341319</created>
+      <option name="issue" value="true" />
+      <url>https://demojetdevelopment.myjetbrains.com/youtrack/issue/DMO-101</url>
+      <option name="number" value="101" />
+      <option name="presentableId" value="DMO-101" />
+      <option name="project" value="DMO" />
+      <updated>1573323420147</updated>
+      <workItem from="1573323421177" duration="587000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers>
@@ -778,11 +369,10 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24062000" />
+    <option name="totallyTimeSpent" value="24675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="936" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49569708" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -797,7 +387,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Regex Tester" order="13" />
@@ -813,6 +403,51 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

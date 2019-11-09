@@ -30,4 +30,4 @@ yarn-error.log
 ###< symfony/webpack-encore-bundle ###
 
 ### Miscellaneous
-.idea
+/.idea
