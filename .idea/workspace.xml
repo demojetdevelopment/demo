@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="DMO-101 Fork Symfony demo project" />
+    <list default="true" id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="DMO-101 Removed devops files from index">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/service/.gitignore" afterDir="false" />
+    </list>
     <list id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +35,12 @@
           <entry key="conf" value="9" />
           <entry key="dist" value="3" />
           <entry key="env" value="6" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="htpasswd" value="1" />
           <entry key="ini" value="1" />
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="3" />
           <entry key="php" value="4" />
           <entry key="sh" value="3" />
           <entry key="test" value="2" />
@@ -50,9 +53,9 @@
           <entry key=".env file" value="11" />
           <entry key="Bash" value="3" />
           <entry key="Dockerfile" value="5" />
-          <entry key="Git file" value="1" />
+          <entry key="Git file" value="2" />
           <entry key="Ini" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="3" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SmartyConfig" value="9" />
@@ -65,10 +68,11 @@
           <entry key="Dockerfile" value="5" />
           <entry key="conf" value="39" />
           <entry key="env" value="65" />
-          <entry key="gitignore" value="24" />
+          <entry key="gitignore" value="47" />
           <entry key="json" value="27" />
           <entry key="lock" value="1" />
-          <entry key="txt" value="16" />
+          <entry key="md" value="74" />
+          <entry key="txt" value="50" />
           <entry key="yaml" value="1" />
           <entry key="yml" value="9" />
         </counts>
@@ -77,8 +81,9 @@
         <counts>
           <entry key=".env file" value="65" />
           <entry key="Dockerfile" value="5" />
-          <entry key="Git file" value="24" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Git file" value="47" />
+          <entry key="Markdown" value="74" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="SmartyConfig" value="39" />
           <entry key="YAML" value="10" />
           <entry key="composer.json" value="28" />
@@ -86,13 +91,50 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.rebase" value="1" />
+          <entry key="git.branch.rebase" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="81">
+                <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/README-DEMO.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -137,6 +179,9 @@
         <option value="$PROJECT_DIR$/service/devops/image/nginx/conf.d/application.conf" />
         <option value="$PROJECT_DIR$/service/devops/image/nginx/config/application.conf" />
         <option value="$PROJECT_DIR$/service/devops/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/service/README.md" />
+        <option value="$PROJECT_DIR$/service/README-DEMO.md" />
+        <option value="$PROJECT_DIR$/service/.gitignore" />
       </list>
     </option>
   </component>
@@ -284,12 +329,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="devops" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -357,8 +396,8 @@
       <option name="number" value="101" />
       <option name="presentableId" value="DMO-101" />
       <option name="project" value="DMO" />
-      <updated>1573323420147</updated>
-      <workItem from="1573323421177" duration="587000" />
+      <updated>1573326436120</updated>
+      <workItem from="1573323421177" duration="1946000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers>
@@ -369,12 +408,13 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24675000" />
+    <option name="totallyTimeSpent" value="26034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="936" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49569708" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49569708" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5043029" side_tool="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -387,8 +427,8 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3283237" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Regex Tester" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -454,7 +494,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit;" />
+    <MESSAGE value="DMO-101 Removed devops files from index" />
+    <option name="LAST_COMMIT_MESSAGE" value="DMO-101 Removed devops files from index" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service/.env.test">
@@ -674,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/devops/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -706,6 +740,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/README-DEMO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
