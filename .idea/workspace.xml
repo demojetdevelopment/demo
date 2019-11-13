@@ -1,158 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="DMO-101 Added demo readme file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/README-DEMO.md" beforeDir="false" afterPath="$PROJECT_DIR$/service/README-DEMO.md" afterDir="false" />
+    <list default="true" id="6df17ac6-48e4-4243-9b0e-68b5a770ff6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e6cd26b2bb7e60911f94ac6d42b93b8ac27788a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33a42d07e7c07ce218e046d486924ca3461ddf94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40c94d07d7f970900fb205ecc8a4c31e1836120e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4caa79b322194f4cbe51db0f71f7704cc30705fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b4251e476bf0a9d38df2956b8580b8fb8482f9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fa600979128c2a676daac70e406c56903c2f289" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fed9e3b8aa0aa93df48b6abf41e0b8b5744dbc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70c2c983de56c0dbf2f31d1b565bccdb49d2ebf9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b52feb7ab7ee0c2cefd077eef00b264a61c16da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/acd23e5300c451d5306cb6d42010973ce0e9d3d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
-    <list id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/service/composer.json</pharConfigPath>
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-575373359">
+    <session id="-251700241">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="5" />
-          <entry key="Makefile" value="2" />
-          <entry key="conf" value="9" />
-          <entry key="dist" value="3" />
-          <entry key="env" value="6" />
-          <entry key="gitignore" value="2" />
-          <entry key="htpasswd" value="1" />
-          <entry key="ini" value="1" />
-          <entry key="json" value="2" />
-          <entry key="lock" value="1" />
-          <entry key="md" value="3" />
-          <entry key="php" value="4" />
-          <entry key="sh" value="3" />
-          <entry key="test" value="2" />
-          <entry key="yaml" value="16" />
-          <entry key="yml" value="9" />
+          <entry key="gitignore" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="11" />
-          <entry key="Bash" value="3" />
-          <entry key="Dockerfile" value="5" />
-          <entry key="Git file" value="2" />
-          <entry key="Ini" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="PHP" value="4" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SmartyConfig" value="9" />
-          <entry key="YAML" value="25" />
-          <entry key="composer.json" value="3" />
+          <entry key="Git file" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="5" />
-          <entry key="conf" value="39" />
-          <entry key="env" value="65" />
-          <entry key="gitignore" value="47" />
-          <entry key="json" value="27" />
-          <entry key="lock" value="1" />
-          <entry key="md" value="193" />
-          <entry key="txt" value="72" />
-          <entry key="yaml" value="1" />
-          <entry key="yml" value="9" />
+          <entry key="gitignore" value="24" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="65" />
-          <entry key="Dockerfile" value="5" />
-          <entry key="Git file" value="47" />
-          <entry key="Markdown" value="193" />
-          <entry key="PLAIN_TEXT" value="72" />
-          <entry key="SmartyConfig" value="39" />
-          <entry key="YAML" value="10" />
-          <entry key="composer.json" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.rebase" value="5" />
+          <entry key="Git file" value="24" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="demo" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="315">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
-                <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/README-DEMO.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>grpc</find>
-      <find>pub</find>
-      <find>database</find>
-      <find>env</find>
-      <find>env(</find>
-      <find>sqlite</find>
-      <find>ext-pdo_sqlite</find>
-      <find>SERVER_NAME</find>
-      <find>asset</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/service/config/packages</dir>
-      <dir>$PROJECT_DIR$/service/config</dir>
-      <dir>$PROJECT_DIR$/service/devops</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,23 +115,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/devops/.env" />
-        <option value="$PROJECT_DIR$/service/devops/.env.dist" />
-        <option value="$PROJECT_DIR$/service/.env.test" />
-        <option value="$PROJECT_DIR$/service/devops/image/php/Dockerfile" />
-        <option value="$PROJECT_DIR$/service/devops/docker-compose.override.yml" />
-        <option value="$PROJECT_DIR$/service/devops/docker-compose.override.dist.yml" />
-        <option value="$PROJECT_DIR$/service/composer.json" />
-        <option value="$PROJECT_DIR$/service/config/packages/doctrine.yaml" />
-        <option value="$PROJECT_DIR$/service/composer.lock" />
-        <option value="$PROJECT_DIR$/service/devops/image/nginx/Dockerfile" />
-        <option value="$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile" />
-        <option value="$PROJECT_DIR$/service/devops/image/nginx/conf.d/application.conf" />
-        <option value="$PROJECT_DIR$/service/devops/image/nginx/config/application.conf" />
-        <option value="$PROJECT_DIR$/service/devops/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/service/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/service/.gitignore" />
-        <option value="$PROJECT_DIR$/service/README-DEMO.md" />
       </list>
     </option>
   </component>
@@ -195,116 +130,6 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/service/package.json" />
     </packageJsonPaths>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/debug-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/var-exporter" />
-      <path value="$PROJECT_DIR$/service/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/intl" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/cache-contracts" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/web-server-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/twig-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/webpack-encore-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/swiftmailer-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/inflector" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/security-http" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/security-core" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/maker-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-php70" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/security-csrf" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/security-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/service/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/service/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/service/vendor/league/uri-parser" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/service/vendor/tgalopin/html-sanitizer" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/migrations" />
-      <path value="$PROJECT_DIR$/service/vendor/tgalopin/html-sanitizer-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/property-access" />
-      <path value="$PROJECT_DIR$/service/vendor/erusev/parsedown" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-intl-messageformatter" />
-      <path value="$PROJECT_DIR$/service/vendor/sensiolabs/security-checker" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/security-guard" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/service/vendor/friendsofphp/php-cs-fixer" />
-      <path value="$PROJECT_DIR$/service/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/service/vendor/ocramius/proxy-manager" />
-      <path value="$PROJECT_DIR$/service/vendor/ocramius/package-versions" />
-      <path value="$PROJECT_DIR$/service/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/service/vendor/composer" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/data-fixtures" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/service/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/doctrine-migrations-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/doctrine-fixtures-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/reflection" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/service/vendor/doctrine/doctrine-cache-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/zendframework/zend-eventmanager" />
-      <path value="$PROJECT_DIR$/service/vendor/zendframework/zend-code" />
-      <path value="$PROJECT_DIR$/service/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/service/vendor/twig/extensions" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/asset" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/monolog-bridge" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/service/vendor/dama/doctrine-test-bundle" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/form" />
-      <path value="$PROJECT_DIR$/service/vendor/php-cs-fixer/diff" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/dotenv" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/twig-bridge" />
-      <path value="$PROJECT_DIR$/service/vendor/masterminds/html5" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/service/vendor/symfony/config" />
-    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -321,12 +146,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-for-presentation-john-doe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-for-presentation-john-doe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-for-presentation-john-doe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-for-presentation-john-doe" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -341,13 +166,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="tasks.close.task.update.state.enabled" value="false" />
+    <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service" />
-      <recent name="$PROJECT_DIR$/service/devops/image/php-fpm" />
-      <recent name="$PROJECT_DIR$/service/devops/image" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,56 +193,55 @@
   <component name="TaskManager">
     <task id="Default" summary="Default task">
       <branch name="master" repository="$PROJECT_DIR$" />
-      <changelist id="14c69990-13d6-4060-82d9-8f59fd5789a4" name="Default Changelist" comment="" />
-      <created>1572855878890</created>
+      <changelist id="6df17ac6-48e4-4243-9b0e-68b5a770ff6d" name="Default Changelist" comment="" />
+      <created>1573630256643</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573323420095</updated>
-      <workItem from="1572855880408" duration="14312000" />
-      <workItem from="1572964008358" duration="28000" />
-      <workItem from="1573109678031" duration="1457000" />
-      <workItem from="1573121091608" duration="652000" />
-      <workItem from="1573213490486" duration="9000" />
-      <workItem from="1573302436848" duration="7630000" />
+      <updated>1573632573600</updated>
+      <workItem from="1573630258617" duration="1766000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit;">
-      <created>1573319211979</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1573319211979</updated>
-    </task>
-    <task active="true" id="DMO-101" summary="Fork Symfony demo project">
+    <task active="true" id="DMO-113" summary="Remove .idea from project">
       <branch name="master" repository="$PROJECT_DIR$" original="true" />
-      <branch name="DMO-101-fork-symfony-demo-project" repository="$PROJECT_DIR$" />
-      <changelist id="d73b66df-484d-4ac9-a4f8-ef8832df9f5a" name="DMO-101 Fork Symfony demo project" comment="" />
-      <created>1573317341319</created>
+      <branch name="DMO-113-remove-.idea-folder" repository="$PROJECT_DIR$" />
+      <created>1573630402029</created>
       <option name="issue" value="true" />
-      <url>https://demojetdevelopment.myjetbrains.com/youtrack/issue/DMO-101</url>
-      <option name="number" value="101" />
-      <option name="presentableId" value="DMO-101" />
+      <url>https://demojetdevelopment.myjetbrains.com/youtrack/issue/DMO-113</url>
+      <option name="number" value="113" />
+      <option name="presentableId" value="DMO-113" />
       <option name="project" value="DMO" />
-      <updated>1573331882516</updated>
-      <workItem from="1573323421177" duration="4464000" />
+      <option name="type" value="BUG" />
+      <updated>1573633286284</updated>
+      <workItem from="1573632573825" duration="773000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="createChangelist" value="false" />
     <servers>
       <YouTrack url="https://demojetdevelopment.myjetbrains.com/youtrack">
-        <password>dffadfcbdfd9dfd9dfdddfc5dfd8dfcedf9bdf8b</password>
-        <username>stkr</username>
+        <commitMessageFormat>{id}: {summary}</commitMessageFormat>
+        <password>dfd2dfc8dfd8dfccdf9cdfcedfcedfcedfc0dfcd</password>
+        <option name="shouldFormatCommitMessage" value="true" />
+        <username>johndoejetdevelopment@gmail.com</username>
       </YouTrack>
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28552000" />
+    <option name="totallyTimeSpent" value="2539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="936" extended-state="6" />
+    <frame x="1" y="25" width="1680" height="936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49569708" visible="true" weight="0.24969475" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5043029" side_tool="true" weight="0.24969475" />
+      <window_info anchor="bottom" id="Reviews" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -425,350 +249,39 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32947975" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3283237" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Regex Tester" order="13" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="JSON Viewer" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="News Feed" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="Json Parser" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Json Parser" order="3" />
-      <window_info anchor="right" id="JSON Viewer" order="4" />
-      <window_info anchor="right" id="LuaJ" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection>
-                  <UserGroup>
-                    <option name="users">
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </option>
-                  </UserGroup>
-                </collection>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit;" />
-    <MESSAGE value="DMO-101 Removed devops files from index" />
-    <MESSAGE value="DMO-101 Added demo readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="DMO-101 Added demo readme file" />
+    <MESSAGE value="DMO-113: remove .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="DMO-113: remove .idea folder" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/.env.test">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="27" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/routes/dev/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/routes/dev/web_profiler.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/Controller/Admin/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/php/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/conf.d/gzip.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/doctrine_migrations.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/cache.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/assets.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31372">
-          <caret line="6962" column="27" selection-start-line="6962" selection-start-column="27" selection-end-line="6962" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/config/routes/annotations.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/.htpasswd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/php-fpm/config/xdebug.ini" />
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/docker-compose.override.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/docker-compose.override.dist.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/config/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/conf.d/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/config/upstreams.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/php-fpm/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/image/php-fpm/src/fpm-dbg/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/scripts/app-start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="11" selection-start-line="12" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/.env.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/devops/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="369">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/README-DEMO.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="315">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
