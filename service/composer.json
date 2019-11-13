@@ -1,0 +1,151 @@
+{
+    "license": "proprietary",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.3",
+        "doctrine/doctrine-bundle": "^1.6.10",
+        "doctrine/doctrine-migrations-bundle": "^1.3",
+        "doctrine/orm": "^2.5.11",
+        "erusev/parsedown": "^1.6",
+        "sensio/framework-extra-bundle": "^5.1",
+        "sensiolabs/security-checker": "^5.0",
+        "symfony/asset": "4.3.*",
+        "symfony/console": "4.3.*",
+        "symfony/dotenv": "4.3.*",
+        "symfony/expression-language": "4.3.*",
+        "symfony/flex": "^1.1",
+        "symfony/form": "4.3.*",
+        "symfony/framework-bundle": "4.3.*",
+        "symfony/intl": "4.3.*",
+        "symfony/monolog-bundle": "^3.1",
+        "symfony/polyfill-intl-messageformatter": "^1.12",
+        "symfony/polyfill-php72": "^1.8",
+        "symfony/security-bundle": "4.3.*",
+        "symfony/swiftmailer-bundle": "^3.1",
+        "symfony/translation": "4.3.*",
+        "symfony/twig-bundle": "4.3.*",
+        "symfony/validator": "4.3.*",
+        "symfony/webpack-encore-bundle": "^1.4",
+        "symfony/yaml": "4.3.*",
+        "tgalopin/html-sanitizer-bundle": "^1.1",
+        "twig/extensions": "^1.5",
+        "twig/twig": "^2.6"
+    },
+    "require-dev": {
+        "dama/doctrine-test-bundle": "^5.0",
+        "doctrine/doctrine-fixtures-bundle": "^3.0",
+        "friendsofphp/php-cs-fixer": "^2.12",
+        "symfony/browser-kit": "4.3.*",
+        "symfony/css-selector": "4.3.*",
+        "symfony/debug-bundle": "4.3.*",
+        "symfony/maker-bundle": "^1.11",
+        "symfony/phpunit-bridge": "*",
+        "symfony/stopwatch": "4.3.*",
+        "symfony/web-profiler-bundle": "4.3.*",
+        "symfony/web-server-bundle": "4.3.*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        },
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd",
+            "security-checker security:check": "script"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ],
+        "prepare-local": [
+            "@prepare-env --env=dev",
+            "@doctrine-cache-clear --env=dev"
+        ],
+        "prepare-test": [
+            "@prepare-env --env=test",
+            "@doctrine-cache-clear --env=test",
+            "php bin/console doctrine:fixtures:load --env=test -n --group=test"
+        ],
+        "prepare-env": [
+            "@create-db --connection=default",
+            "@migration-migrate",
+            "php bin/console cache:clear"
+        ],
+        "test": [
+            "@prepare-test",
+            "phpdbg -qrr vendor/bin/simple-phpunit -c phpunit.xml --coverage-clover tests/coverage.xml --log-junit tests/junit-report.xml"
+        ],
+        "test-no-coverage": [
+            "@prepare-test",
+            "php vendor/bin/simple-phpunit -c phpunit.xml --verbose"
+        ],
+        "test-html-coverage": [
+            "@prepare-test",
+            "php vendor/bin/simple-phpunit -c phpunit.xml --verbose  --coverage-html tests/coverage"
+        ],
+        "create-db": [
+            "php bin/console doctrine:database:drop --force --if-exists",
+            "php bin/console doctrine:database:create"
+        ],
+        "migration-migrate": [
+            "php bin/console doctrine:migrations:migrate -n --allow-no-migration"
+        ],
+        "doctrine-cache-clear": [
+            "php bin/console doctrine:cache:clear-metadata --flush",
+            "php bin/console doctrine:cache:clear-query --flush",
+            "php bin/console doctrine:cache:clear-result --flush"
+        ],
+        "clear-cache-custom": [
+            "php bin/console cache:clear --no-warmup",
+            "php bin/console doctrine:cache:clear-result"
+        ],
+        "service:install-local": [
+            "composer install -a -o -n --prefer-dist -v",
+            "@service:bootstrap"
+        ],
+        "service:install": [
+            "composer install -a -o -n --prefer-dist --no-scripts",
+            "composer update metro-markets/* -a -o -n --prefer-dist",
+            "composer dump-autoload"
+        ],
+        "service:bootstrap": [
+            "sh devops/scripts/wait.sh",
+            "php bin/console doctrine:database:create --if-not-exists",
+            "php bin/console doctrine:migrations:migrate -n --allow-no-migration --em=default"
+        ],
+        "service:bootstrap-recreate": [
+            "sh devops/scripts/wait.sh",
+            "php bin/console doctrine:database:drop --force --if-exists",
+            "php bin/console doctrine:database:create --if-not-exists",
+            "php bin/console doctrine:migrations:migrate -q -n --allow-no-migration --em=default"
+        ]
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": true,
+            "require": "4.3.*"
+        }
+    }
+}

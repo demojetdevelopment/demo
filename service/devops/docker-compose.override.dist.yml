@@ -1,0 +1,18 @@
+version: '3.6'
+
+services:
+  nginx:
+    ports:
+      - 8099:8081
+
+  php-fpm:
+    volumes:
+      - ~/.composer:/var/cache/www-data/.composer
+    env_file:
+      - .env
+    environment:
+      - PHP_IDE_CONFIG=serverName=${SERVER_NAME}
+
+  demo_db:
+    ports:
+      - 3321:3306

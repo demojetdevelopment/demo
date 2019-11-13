@@ -1,0 +1,61 @@
+version: '3.6'
+
+services:
+  nginx:
+    container_name: demo_service_nginx
+    build:
+      context: image/nginx
+      args:
+        - SERVER_NAME
+    working_dir: /var/www/service
+    volumes:
+      - ../:/var/www/service:delegated
+    links:
+      - php-fpm
+    networks:
+      - demo
+      - default
+
+  php-fpm:
+    container_name: demo_service_php_fpm
+    build:
+      context: image/php-fpm
+      args:
+        - XDEBUG
+        - UID
+        - GID
+    working_dir: /var/www/service
+    volumes:
+      - ../:/var/www/service:delegated
+    env_file:
+      - .env
+    networks:
+      - demo
+      - default
+
+  demo_db:
+    container_name: demo_db
+    image: mysql:${APP_DB_VERSION}
+    environment:
+      MYSQL_ROOT_PASSWORD: ${APP_DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${APP_DB_DATABASE}
+      MYSQL_USER: ${APP_DB_USER}
+      MYSQL_PASSWORD: ${APP_DB_PASSWORD}
+    volumes:
+      - database:/var/lib/mysql
+    networks:
+      - default
+
+  redis:
+    image: redis:5.0.0-alpine
+    networks:
+      - default
+
+volumes:
+  database:
+
+networks:
+  default:
+    driver: bridge
+  demo:
+    external: true # if not created manually run command `docker network create demo`

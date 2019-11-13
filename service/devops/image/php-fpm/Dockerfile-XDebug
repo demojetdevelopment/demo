@@ -1,0 +1,12 @@
+FROM gcr.io/metro-markets-dev/php-fpm:2.5
+
+MAINTAINER Alexandr Zayats <alexandr@zayats.org>
+
+USER root
+RUN apk add --no-cache php7-pear php7-dev gcc musl-dev make && \
+    pecl install -o -f xdebug && \
+    rm -rf /tmp/pear
+
+COPY xdebug-dev.ini /usr/local/etc/php/conf.d/xdebug-dev.ini
+
+USER www-data
