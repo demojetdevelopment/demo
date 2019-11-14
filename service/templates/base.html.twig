@@ -8,7 +8,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>{% block title %}Symfony Demo application{% endblock %}</title>
+        <title>{% block title %}JetBrains Demo application{% endblock %}</title>
         <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
@@ -25,7 +25,7 @@
                     <div class="container">
                         <div class="navbar-header col-md-3 col-lg-2">
                             <a class="navbar-brand" href="{{ path('homepage') }}">
-                                Symfony Demo
+                                JetBrains Demo
                             </a>
 
                             <button type="button" class="navbar-toggle"
@@ -113,7 +113,8 @@
 
                     <div id="sidebar" class="col-sm-3">
                         {% block sidebar %}
-                            {{ render_esi(controller('Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController::templateAction', {
+                            {{ render_esi(controller('JetBrains
+                           \\Bundle\\FrameworkBundle\\Controller\\TemplateController::templateAction', {
                                 'template': 'blog/about.html.twig',
                                 'sharedAge': 600,
                                 '_locale': app.request.locale
@@ -129,18 +130,20 @@
                 <div class="container">
                     <div class="row">
                         <div id="footer-copyright" class="col-md-6">
-                            <p>&copy; {{ 'now'|date('Y') }} - The Symfony Project</p>
+                            <p>&copy; {{ 'now'|date('Y') }} - The JetBrains Project</p>
                             <p>{{ 'mit_license'|trans }}</p>
                         </div>
                         <div id="footer-resources" class="col-md-6">
                             <p>
-                                <a href="https://twitter.com/symfony" title="Symfony Twitter">
+                                <a href="https://twitter.com/symfony" title="JetBrains
+                                Twitter">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
                                 <a href="https://www.facebook.com/SensioLabs" title="SensioLabs Facebook">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://symfony.com/blog/" title="Symfony Blog">
+                                <a href="https://symfony.com/blog/" title="JetBrains
+                                Blog">
                                     <i class="fa fa-rss" aria-hidden="true"></i>
                                 </a>
                             </p>
